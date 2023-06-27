@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-style: normal;
+  color: rgb(20, 18, 18);
+}
+
+
+#container {
+  width: 75vw;
+  height: 100vh;
+  padding: 0;
+  margin: auto;
+  border: 1px solid transparent;
+  background: url('https://raw.githubusercontent.com/Arceus-sj/JavaScript/main/Person_Counter_App/img.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+
+h1 {
+  font-size: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 50px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+
+}
+
+button {
+  padding: 10px 0;
+  margin-top: 0;
+  margin-bottom: 10px;
+  width: 200px;
+  font-size: larger;
+  font-weight: bold;
+  color: #F4F9F9;
+  border: none;
+  border-radius: 10px;
+}
+
+#increment-btn {
+  background-color: #00909E;
+}
+
+#increment-btn:hover {
+  background-color: #03506f;
+}
+
+#save-btn {
+  background-color: #045757;
+}
+
+#save-btn:hover {
+  background-color: #044343;
+}
